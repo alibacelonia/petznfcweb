@@ -19,7 +19,7 @@ const BlogsSection = () => {
         <section id="blogs" className="overflow-hidden pt-5 bg-amber-1000">
         
           <div className="flex flex-col animate-fadeIn animation-delay-2  md:flex-row md:text-left">
-            <div className="w-full sm:w-1/2">
+            <div className="w-full sm:w-1/2 sm:pr-10">
               <div className="relative pt-4 mx-auto me-md-0">
                 <div className="flex flex-col">
                     <div className="flex gap-2 mb-4">
