@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`dark:bg-stone-100`}>
+      <body className={`dark:bg-slate-100`}>
         <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />
           {children}

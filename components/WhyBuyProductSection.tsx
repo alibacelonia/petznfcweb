@@ -11,9 +11,9 @@ import {
             HiOutlineSearchCircle
         } from "react-icons/hi"
 
-const FeaturesSection = () => {
+const WhyBuyOurProductSection = () => {
     return (
-        <section id="features" className="overflow-hidden pt-5">
+        <section id="whybuyourproduct" className="overflow-hidden pt-5">
         
           <div className="flex flex-col animate-fadeIn animation-delay-2 pt-6 sm:pt-20 md:flex-row md:text-left">
             <div className="hidden lg:block lg:w-5/12 ">
@@ -98,4 +98,4 @@ const FeaturesSection = () => {
       )
 }
 
-export default FeaturesSection
+export default WhyBuyOurProductSection
