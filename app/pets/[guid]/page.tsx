@@ -19,13 +19,46 @@ async function getData(guid: string){
 }
 
 export default async function PetDetailsPage({ params }: {params: {guid: string}}) {
-    const response = await getData(params.guid);
-    if (!response) { 
-        // redirect('/signin'); 
+    const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-5][0-9a-f]{3}-[089ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+
+    const isValidUUID = (uuid: string) => {
+        return uuidRegex.test(uuid);
+    };
+
+    if (isValidUUID(params.guid)){
+        const response = await getData(params.guid);
+        console.log(response)
+        if(response.status_code == 200){
+            return (
+                <main className='bg-slate-100 w-full'>
+                    {/* <pre>
+                        {JSON.stringify(response)}
+                    </pre> */}
+                <h1 className="text-center">{response["data"]["pet"]["breed"]}</h1>
+                </main>
+            );
+        }
+        else if(response.status_code == 404){
+            return <>
+                <div className="min-h-screen min-w-screen relative flex items-center justify-center">
+                    <div className="absolute top-50 end-50 translate-middle-y flex items-center justify-center">
+                        <span className="text-2xl font-medium">404</span>
+                        <div className=" border border-r-slate-900 py-6 mx-5"></div>
+                        <span className="text-sm font-medium">No record found.</span>
+                    </div>
+                </div>
+            </>
+        }
     }
-    return (
-        <main className='bg-slate-100 w-full'>
-          <h1 className="text-center">{response["data"]["pet"]["breed"]}</h1>
-        </main>
-    );
+    else {
+        return <>
+            <div className="min-h-screen min-w-screen relative flex items-center justify-center">
+                <div className="absolute top-50 end-50 translate-middle-y flex items-center justify-center">
+                    <span className="text-2xl font-medium">404</span>
+                    <div className=" border border-r-slate-900 py-6 mx-5"></div>
+                    <span className="text-sm font-medium">This page could not be found.</span>
+                </div>
+            </div>
+            </>
+    }
   }
