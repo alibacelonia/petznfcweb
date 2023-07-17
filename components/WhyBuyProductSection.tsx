@@ -16,23 +16,11 @@ const WhyBuyOurProductSection = () => {
         <section id="whybuyourproduct" className="overflow-hidden pt-5">
         
           <div className="flex flex-col animate-fadeIn animation-delay-2 pt-6 sm:pt-20 md:flex-row md:text-left">
-            <div className="hidden lg:block lg:w-5/12 ">
-              <div className="relative overflow-hidden pt-4 mx-auto me-md-0 max-w-xl min-h-screen">
-                <div className="flex flex-col sm:flex-row items-center sm:items-left justify-center sm:justify-start">
-                    <img src="https://silicon.createx.studio/assets/img/landing/app-showcase/features/phone.png" 
-                    className="max-w-sm" alt="Phone" />
-                </div>
-              </div>
-            </div>
-            <div className="w-full lg:w-7/12">
-              <h1 className="text-2xl font-semibold mt-6 md:mt-6 md:text-4xl text-center sm:text-left">App Features</h1>
-              <p className="text-lg mt-6 mb-16 mb-6 md:text-lg text-center sm:text-left">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Suspendisse consequat fringilla dolor, vel ornare est feugiat aliquam.
-              </p>
-              <div className="flex flex-row sm:flex-col flex-wrap gap-4 sm:gap-12">
-                <div className="flex flex-col sm:flex-row gap-4">
-                    <div className="flex items-start">
+            <div className="w-full">
+              <h1 className="text-2xl font-semibold mt-6 md:mt-6 md:text-4xl text-center sm:text-left">Why Buy Our Product?</h1>
+              <div className="flex flex-row sm:flex-col flex-wrap gap-4 sm:gap-12 mt-8 sm:mt-16">
+                <div className="flex flex-col sm:flex-row gap-4 justify-evenly">
+                    <div className="flex items-start w-full sm:w-1/2">
                         <div className="shrink-0 bg-slate-100 rounded-lg p-3">
                             <HiOutlineIdentification size={35} className="text-slate-700"></HiOutlineIdentification>
                         </div>
@@ -41,7 +29,7 @@ const WhyBuyOurProductSection = () => {
                             <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
                         </div>
                     </div>
-                    <div className="flex items-start">
+                    <div className="flex items-start w-full sm:w-1/2">
                         <div className="shrink-0 bg-slate-100 rounded-lg p-3">
                             <HiOutlineSearchCircle size={35} className="text-slate-700"></HiOutlineSearchCircle>
                         </div>
@@ -52,7 +40,7 @@ const WhyBuyOurProductSection = () => {
                     </div>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4">
-                    <div className="flex items-start">
+                    <div className="flex items-start w-full sm:w-1/2">
                         <div className="shrink-0 bg-slate-100 rounded-lg p-3">
                             <HiOutlineQrcode size={35} className="text-slate-700"></HiOutlineQrcode>
                         </div>
@@ -61,7 +49,7 @@ const WhyBuyOurProductSection = () => {
                             <p>Mattis urna ultricies non amet, purus in auctor non. Odio vulputate ac nibh.</p>
                         </div>
                     </div>
-                    <div className="flex items-start">
+                    <div className="flex items-start w-full sm:w-1/2">
                         <div className="shrink-0 bg-slate-100 rounded-lg p-3">
                             <HiOutlinePencilAlt size={35} className="text-slate-700"></HiOutlinePencilAlt>
                         </div>
@@ -72,7 +60,7 @@ const WhyBuyOurProductSection = () => {
                     </div>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4">
-                    <div className="flex items-start">
+                    <div className="flex items-start w-full sm:w-1/2">
                         <div className="shrink-0 bg-slate-100 rounded-lg p-3">
                             <HiOutlineInformationCircle size={35} className="text-slate-700"></HiOutlineInformationCircle>
                         </div>
@@ -81,7 +69,7 @@ const WhyBuyOurProductSection = () => {
                             <p>Sit facilisis dolor arcu, fermentum vestibulum arcu elementum imperdiet eleifend.</p>
                         </div>
                     </div>
-                    <div className="flex items-start">
+                    <div className="flex items-start w-full sm:w-1/2">
                         <div className="shrink-0 bg-slate-100 rounded-lg p-3">
                             <HiOutlineUserGroup size={35} className="text-slate-700"></HiOutlineUserGroup>
                         </div>

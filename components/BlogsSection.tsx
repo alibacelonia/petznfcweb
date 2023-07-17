@@ -28,7 +28,7 @@ const BlogsSection = () => {
                             <span className="text-orange-400 font-semibold">Latest Blog</span>
                         </div>
                     </div>
-                    <h1 className="light:text-slate-700 font-semibold text-4xl leading-normal ">The Importance of Pet Identification: Why Every Pet Needs a QR Tag</h1>
+                    <h1 className="light:text-slate-700 font-semibold text-2xl sm:text-4xl  leading-normal ">The Importance of Pet Identification: Why Every Pet Needs a QR Tag</h1>
                     <div className="flex flex-row mt-4 gap-3">
                         <div className="shrink-0 py-1 pr-3 border-r-2 border-slate-300"><h4 className="font-medium light:text-slate-700">12 hours ago</h4></div>
                         <div className="shrink-0 py-1 flex flex-row justify-center items-center ">
@@ -53,13 +53,13 @@ const BlogsSection = () => {
               </div>
             </div>
             <div className="w-full sm:w-1/2">
-              <h1 className="text-2xl font-semibold mt-6 md:mt-6 md:text-2xl text-center sm:text-left">Recent Blogs</h1>
+              <h1 className="text-lg font-semibold mt-6 md:mt-6 sm:text-2xl text-center sm:text-left">Recent Blogs</h1>
               <div className="flex flex-row sm:flex-col flex-wrap gap-2 sm:gap-2 mt-4">
                 <div className="flex flex-col sm:flex-row gap-2">
                     <div className="flex flex-col items-start bg-slate-100 p-3 rounded-md shadow">
-                        <h1 className="text-slate-700 font-semibold text-lg">The Importance of Pet Identification: Why Every Pet Needs a QR Tag</h1>
+                        <h1 className="text-slate-700 font-semibold text-lg">5 Reasons Why Pet QR Tags Are Better Than Microchips</h1>
                         <div className="flex flex-row mt-4 gap-3">
-                            <div className="shrink-0 py-1 pr-3 border-r-2 border-slate-300"><h4 className="text-xs font-medium text-slate-700">12 hours ago</h4></div>
+                            <div className="shrink-0 py-1 pr-3 border-r-2 border-slate-300"><h4 className="text-xs font-medium text-slate-700">1 day ago</h4></div>
                             <div className="shrink-0 py-1 flex flex-row justify-center items-center ">
                                 <HiOutlineThumbUp size={16} className=" text-slate-700 "></HiOutlineThumbUp>
                                 <span className="text-xs font-medium text-slate-700 ">100</span>
@@ -80,9 +80,9 @@ const BlogsSection = () => {
                         </div>
                     </div>
                     <div className="flex flex-col items-start bg-slate-100 p-3 rounded-md shadow">
-                    <h1 className="text-slate-700 font-semibold text-lg">The Importance of Pet Identification: Why Every Pet Needs a QR Tag</h1>
+                    <h1 className="text-slate-700 font-semibold text-lg">How to Choose the Right QR Tag for Your Pet</h1>
                         <div className="flex flex-row mt-4 gap-3">
-                            <div className="shrink-0 py-1 pr-3 border-r-2 border-slate-300"><h4 className="text-xs font-medium text-slate-700">12 hours ago</h4></div>
+                            <div className="shrink-0 py-1 pr-3 border-r-2 border-slate-300"><h4 className="text-xs font-medium text-slate-700">3 days ago</h4></div>
                             <div className="shrink-0 py-1 flex flex-row justify-center items-center ">
                                 <HiOutlineThumbUp size={16} className=" text-slate-700 "></HiOutlineThumbUp>
                                 <span className="text-xs font-medium text-slate-700 ">100</span>
@@ -105,9 +105,9 @@ const BlogsSection = () => {
                 </div>
                 <div className="flex flex-col sm:flex-row gap-2">
                     <div className="flex flex-col items-start bg-slate-100 p-3 rounded-md shadow">
-                    <h1 className="text-lg font-semibold text-slate-700">The Importance of Pet Identification: Why Every Pet Needs a QR Tag</h1>
+                    <h1 className="text-lg font-semibold text-slate-700">Keeping Your Pet Safe: Tips for Preventing Lost Pets</h1>
                         <div className="flex flex-row mt-4 gap-3">
-                            <div className="shrink-0 py-1 pr-3 border-r-2 border-slate-300"><h4 className="text-xs font-medium text-slate-700">12 hours ago</h4></div>
+                            <div className="shrink-0 py-1 pr-3 border-r-2 border-slate-300"><h4 className="text-xs font-medium text-slate-700">5 days ago</h4></div>
                             <div className="shrink-0 py-1 flex flex-row justify-center items-center ">
                                 <HiOutlineThumbUp size={16} className=" text-slate-700 "></HiOutlineThumbUp>
                                 <span className="text-xs font-medium text-slate-700 ">100</span>
@@ -128,9 +128,9 @@ const BlogsSection = () => {
                         </div>
                     </div>
                     <div className="flex flex-col items-start bg-slate-100 p-3 rounded-md shadow">
-                    <h1 className="text-slate-700 font-semibold text-lg">The Importance of Pet Identification: Why Every Pet Needs a QR Tag</h1>
+                    <h1 className="text-slate-700 font-semibold text-lg">Success Stories: How Pet QR Tags Helped Reunite Lost Pets with Their Owners</h1>
                         <div className="flex flex-row mt-4 gap-3">
-                            <div className="shrink-0 py-1 pr-3 border-r-2 border-slate-300"><h4 className="text-xs font-medium text-slate-700">12 hours ago</h4></div>
+                            <div className="shrink-0 py-1 pr-3 border-r-2 border-slate-300"><h4 className="text-xs font-medium text-slate-700">1 week ago</h4></div>
                             <div className="shrink-0 py-1 flex flex-row justify-center items-center ">
                                 <HiOutlineThumbUp size={16} className="text-slate-700 "></HiOutlineThumbUp>
                                 <span className="text-xs font-medium text-slate-700 ">100</span>

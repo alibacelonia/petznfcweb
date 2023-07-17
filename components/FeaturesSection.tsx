@@ -32,7 +32,7 @@ const FeaturesSection = () => {
               </p>
               <div className="flex flex-row sm:flex-col flex-wrap gap-4 sm:gap-12">
                 <div className="flex flex-col sm:flex-row gap-4">
-                    <div className="flex items-start">
+                    <div className="flex items-start w-full sm:w-1/2">
                         <div className="shrink-0 bg-slate-100 rounded-lg p-3">
                             <HiOutlineIdentification size={35} className="text-slate-700"></HiOutlineIdentification>
                         </div>
@@ -41,7 +41,7 @@ const FeaturesSection = () => {
                             <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
                         </div>
                     </div>
-                    <div className="flex items-start">
+                    <div className="flex items-start w-full sm:w-1/2">
                         <div className="shrink-0 bg-slate-100 rounded-lg p-3">
                             <HiOutlineSearchCircle size={35} className="text-slate-700"></HiOutlineSearchCircle>
                         </div>
@@ -52,7 +52,7 @@ const FeaturesSection = () => {
                     </div>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4">
-                    <div className="flex items-start">
+                    <div className="flex items-start w-full sm:w-1/2">
                         <div className="shrink-0 bg-slate-100 rounded-lg p-3">
                             <HiOutlineQrcode size={35} className="text-slate-700"></HiOutlineQrcode>
                         </div>
@@ -61,7 +61,7 @@ const FeaturesSection = () => {
                             <p>Mattis urna ultricies non amet, purus in auctor non. Odio vulputate ac nibh.</p>
                         </div>
                     </div>
-                    <div className="flex items-start">
+                    <div className="flex items-start w-full sm:w-1/2">
                         <div className="shrink-0 bg-slate-100 rounded-lg p-3">
                             <HiOutlinePencilAlt size={35} className="text-slate-700"></HiOutlinePencilAlt>
                         </div>
@@ -72,7 +72,7 @@ const FeaturesSection = () => {
                     </div>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4">
-                    <div className="flex items-start">
+                    <div className="flex items-start w-full sm:w-1/2">
                         <div className="shrink-0 bg-slate-100 rounded-lg p-3">
                             <HiOutlineInformationCircle size={35} className="text-slate-700"></HiOutlineInformationCircle>
                         </div>
@@ -81,7 +81,7 @@ const FeaturesSection = () => {
                             <p>Sit facilisis dolor arcu, fermentum vestibulum arcu elementum imperdiet eleifend.</p>
                         </div>
                     </div>
-                    <div className="flex items-start">
+                    <div className="flex items-start w-full sm:w-1/2">
                         <div className="shrink-0 bg-slate-100 rounded-lg p-3">
                             <HiOutlineUserGroup size={35} className="text-slate-700"></HiOutlineUserGroup>
                         </div>

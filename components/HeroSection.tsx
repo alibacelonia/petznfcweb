@@ -8,9 +8,9 @@ const HeroSection = () => {
     <section id="home" className="overflow-hidden pt-5">
     
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 pt-14 sm:pt-32 md:flex-row md:text-left">
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 pr-6">
           <h1 className="text-2xl font-semibold mt-6 md:mt-0 md:text-5xl">Find Your Lost Companion with Ease!</h1>
-          <p className="text-lg mt-6 mb-16 mb-6 md:text-lg">
+          <p className="text-lg mt-10 mb-6 sm:mb-16 md:text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Suspendisse consequat fringilla dolor, vel ornare est feugiat aliquam.
           </p>
@@ -45,10 +45,10 @@ const HeroSection = () => {
           <div className="relative overflow-hidden pt-4 mx-auto me-md-0 max-w-xl min-h-screen">
             <div className="flex flex-col sm:flex-row items-center sm:items-left justify-center sm:justify-start">
                 <img src="https://silicon.createx.studio/assets/img/landing/app-showcase/hero-phone-2.png" 
-                className="rellax absolute top-0 start-0" 
+                className="rellax absolute top-0 start-10" 
                 data-rellax-speed="2.8" data-disable-parallax-down="md" alt="Phone" />
                 <img src="https://silicon.createx.studio/assets/img/landing/app-showcase/hero-phone-1.png" alt=""
-                className="rellax absolute top-0 start-0 z-index-10" />
+                className="rellax absolute top-12 start-0 z-index-10" />
             </div>
           </div>
         </div>
