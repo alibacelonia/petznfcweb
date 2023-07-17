@@ -36,7 +36,7 @@ const HowItWorksSection = () => {
     },
   ]
 
-  const swiperRef = useRef<Swiper | null>(null);
+  // const swiperRef = useRef<Swiper | null>(null);
   const [realIndex, setRealIndex] = useState(0);
   // const slideTo = (index) => swiper.slideTo(index);
 
@@ -47,12 +47,12 @@ const HowItWorksSection = () => {
       </div>
       <div className="relative flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 md:flex-row md:text-left">
              
-        <button className="rounded-full bg-slate-100 shadow p-3.5 absolute top-50 start-0 ms-n5 translate-middle-y z-50" onClick={() => swiperRef.current?.slidePrev()}><HiOutlineChevronLeft></HiOutlineChevronLeft></button>
+        {/* <button className="rounded-full bg-slate-100 shadow p-3.5 absolute top-50 start-0 ms-n5 translate-middle-y z-50" onClick={() => swiperRef.current?.slidePrev()}><HiOutlineChevronLeft></HiOutlineChevronLeft></button> */}
         <Swiper
-          modules={[Navigation]}
-          onBeforeInit={(swiper) => {
-            swiperRef.current = swiper;
-          }}
+        modules={[Pagination, Navigation]}
+          // onBeforeInit={(swiper) => {
+          //   swiperRef.current = swiper;
+          // }}
           onSlideChange={(swiper) => setRealIndex(swiper.realIndex)}
           slidesPerView={1}
           centeredSlides={true}
@@ -60,6 +60,8 @@ const HowItWorksSection = () => {
             el: "#swiperid",
             type: 'progressbar',
           }}
+
+        navigation={true}
           loop={true}
           breakpoints={{
             "768": { "slidesPerView": 3 }
@@ -73,7 +75,7 @@ const HowItWorksSection = () => {
         </Swiper>
         
         {/* Add navigation elements */}
-        <button className="rounded-full bg-slate-100 shadow p-3.5 absolute top-50 end-0 ms-n5 translate-middle-y z-50" onClick={() => swiperRef.current?.slideNext()}><HiOutlineChevronRight className="text-slate-700"></HiOutlineChevronRight></button>
+        {/* <button className="rounded-full bg-slate-100 shadow p-3.5 absolute top-50 end-0 ms-n5 translate-middle-y z-50" onClick={() => swiperRef.current?.slideNext()}><HiOutlineChevronRight className="text-slate-700"></HiOutlineChevronRight></button> */}
         
       </div>
       <div className="flex justify-center items-center py-5">
