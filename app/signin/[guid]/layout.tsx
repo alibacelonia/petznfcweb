@@ -1,5 +1,5 @@
 "use client"
-export default function GUIDLayout({
+export default function SigninLayout({
   children,
 }: {
   children: React.ReactNode
